@@ -1,0 +1,156 @@
+@media screen and (max-width: 1440px) {
+
+	.container {
+		width: 748px;
+	}
+	.header__content {
+		width: 668px;
+		padding-right: 0px;
+	}
+	.works__headline ,.meet__headline {
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.meet__partners {
+		max-width: 492px;
+		margin: 0 auto;
+		flex-wrap: wrap;
+		gap: 40px;
+		justify-content: center;
+	}
+	.partner__item {
+		flex: 1 0 45%;
+	}
+	.partner__descr {
+		max-width: 235px;
+	}
+	.meet__other {
+		margin-top: 40px;
+	}
+	.create__heading {
+		font-size: 22px;
+		line-height: 27px;
+	}
+	.footer__partner {
+		margin-right: 0;
+	}
+	.footer__logo {
+		margin-left: 40px;
+	}
+	.footer__design {
+		margin-right: 40px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 300px;
+	}
+	.header__content {
+		flex-direction: column-reverse;
+		width: 165px;
+	}
+	.hero {
+		height: 540px;
+	}
+	.hero__content {
+		margin-top: 75px;
+	}
+	.hero__headline {
+		font-size: 30px;
+		line-height: 37px;
+	}
+	.header__logo {
+		margin-top: 95px;
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.hero__subline {
+		font-size: 18px;
+		margin: 5px auto 0;
+		max-width: 280px;
+		align-self: center;
+	}
+	.hero__link {
+		margin-top: 15px;
+	}
+	.works {
+		padding-top: 35px;
+	}
+	.works__items {
+		margin-top: 15px;
+	}
+	.works__items {
+		flex-direction: column;
+	}
+	.works__items * + * {
+  		margin-top: 10px;
+		margin-left: 0;
+	}
+	.item {
+		min-height: 240px;
+		padding-top: 0;
+	}
+	.meet {
+  		padding-top: 35px;
+	}
+	.discover {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	.discover__list {
+		grid-auto-rows: 120px 120px 120px;
+	}
+	.discover__list {
+		grid-template-columns: 1fr;
+	}
+	.disover__item-big {
+		grid-column: span 1;
+	}
+	.disover__item-7 {
+  		background-position: top;
+	}
+	.disover__item-3 {
+	background-position-y: 15%;
+	}
+	.create__form{
+		flex-direction: column;
+	}
+	.create__btn {
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	.create {
+		padding-bottom: 40px;
+	}
+	.flex {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer__logo {
+		margin-left: 0;
+	}
+	.footer__company {
+		margin-right: 0;
+		margin-top: 13px;
+		text-align: center;
+	}
+	.footer__partner {
+		margin-top: 7px;
+	}
+	.footer__list-company {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.company__item {
+		margin: 0 5px;
+	}
+	.design__copy {
+		text-align: center;
+		margin-top: 15px;
+	}
+	.footer__design {
+		margin-right: 0;
+	}
+}

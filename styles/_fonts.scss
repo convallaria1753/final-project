@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Monserat bold';
+	font-weight: 700;
+	font-display: swap;
+	src: url('/fonts/Montserrat-Bold.woff') format('woff'), url('/fonts/Montserrat-Bold.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Monserat';
+	font-weight: 400;
+	font-display: swap;
+	src: url('/fonts/Montserrat-Regular.woff') format('woff'), url('/fonts/Montserrat-Regular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-weight: lighter;
+	font-display: swap;
+	src: url('/fonts/Roboto-Light.woff') format('woff');
+}
